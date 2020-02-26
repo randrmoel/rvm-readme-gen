@@ -1,0 +1,28 @@
+{
+  "name": "rvm-readme-gen",
+  "version": "1.0.0",
+  "description": "A readme.md generator based on user input",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/randrmoel/rvm-readme-gen.git"
+  },
+  "keywords": [
+    "readme.md",
+    "read",
+    "me",
+    "automated"
+  ],
+  "author": "Robert Moel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/randrmoel/rvm-readme-gen/issues"
+  },
+  "homepage": "https://github.com/randrmoel/rvm-readme-gen#readme",
+  "dependencies": {
+    "inquirer": "^7.0.4"
+  }
+}
