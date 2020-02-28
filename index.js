@@ -64,7 +64,7 @@ inq
             const badgeURL =`https://img.shields.io/badge/license-${resp1.licType}-green.svg`
                 const markup = `
 ## ${resp1.projName}
-[[!GitHub License](${badgeURL})]        
+<img src = "${badgeURL}" alt ="badge" width ="30"/>        
 ## Description
 ${resp1.desc}
         

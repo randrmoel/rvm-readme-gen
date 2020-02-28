@@ -1,6 +1,6 @@
 
 ## README.md file creator
-[[!GitHub License](https://img.shields.io/badge/license-MIT-green.svg)]        
+<img src = "https://img.shields.io/badge/license-MIT-green.svg" alt ="badge" width ="30"/>        
 ## Description
 This program creates an automated README.md file
         
