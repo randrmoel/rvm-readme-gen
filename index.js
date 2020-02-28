@@ -61,9 +61,10 @@ inq
         axios
             .get(axiosURL)
             .then(resp2 => {
+            const badgeURL =`https://img.shields.io/badge/license-${resp1.licType}-green.svg`
                 const markup = `
 ## ${resp1.projName}
-        
+[[!GitHub License](${badgeURL})]        
 ## Description
 ${resp1.desc}
         

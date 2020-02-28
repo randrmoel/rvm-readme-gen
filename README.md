@@ -1,6 +1,6 @@
 
 ## README.md file creator
-        
+[[!GitHub License](https://img.shields.io/badge/license-BSD 3-green.svg)]        
 ## Description
 This program creates an automated README.md file
         
@@ -14,19 +14,19 @@ This program creates an automated README.md file
 
 ## Installation <a name="installation"></a>
 The following dependencies need to be installed
-npm i axios, npm i inquirer, require fs
+npm i axios, npm i inquirer
 
 ## Usage <a name="usage"></a>
 Nothing particularly
 
 ## License <a name="license"></a>
-This project is licensed under the MIT license.
+This project is licensed under the BSD 3 license.
 
 ## Contributing <a name="contributing"></a>
 All help welcome
         
 ## Tests <a name = "tests"></a>
-Test Program
+Tester
         
 ## Questions <a name ="questions"></a>
 <img src="https://avatars2.githubusercontent.com/u/58125997?v=4" alt ="avatar" style = "border-radius: 16px" width ="30" /> 
