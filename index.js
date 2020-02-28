@@ -62,40 +62,40 @@ inq
             .get(axiosURL)
             .then(resp2 => {
                 const markup = `
-                ##${resp1.projName}
+##${resp1.projName}
         
-                ## Description
-                ${resp1.desc}
+## Description
+${resp1.desc}
         
-                # Table of contents
-                1. [Installation](#installation)
-                2. [Usage](#usage)
-                3. [License](#license)
-                4. [Contributing](#contributing)
-                5. [Tests](#tests)
-                6. [Questions](#questions)
+# Table of contents
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [License](#license)
+4. [Contributing](#contributing)
+5. [Tests](#tests)
+6. [Questions](#questions)
+
+## Installation <a name="installation"></a>
+The following dependencies need to be installed
+${resp1.depend}
+
+## Usage <a name="usage"></a>
+${resp1.repoInfo}
+
+## License <a name="license"></a>
+This project is licensed under the ${resp1.licType} license.
+
+## Contributing <a name="contributing"></a>
+${resp1.repoContr}
         
-                ## Installation <a name="installation"></a>
-                The following dependencies need to be installed
-                ${resp1.depend}
+## Tests <a name = "tests"></a>
+${resp1.tests}
         
-                ## Usage <a name="usage"></a>
-                ${resp1.repoInfo}
-        
-                ## License <a name="license"></a>
-                This project is licensed under the ${resp1.licType} license.
-        
-                ## Contributing <a name="contributing"></a>
-                ${resp1.repoContr}
-        
-                ## Tests <a name = "tests"></a>
-                ${resp1.tests}
-        
-                ## Questions <a name ="questions"></a>
-                <img src="${resp2.data.avatar_url}" alt ="avatar" style = "border-radius: 16px" width ="30" /> 
-                
-                If you have an questions about the repo, open an issue or contact [${resp1.gitUserName}](${axiosURL})
-                at my email: ${resp2.data.email}`;
+## Questions <a name ="questions"></a>
+<img src="${resp2.data.avatar_url}" alt ="avatar" style = "border-radius: 16px" width ="30" /> 
+
+If you have an questions about the repo, open an issue or contact [${resp1.gitUserName}](${axiosURL})
+at my email: ${resp2.data.email}`;
 
                 fs.writeFile("README.md", markup, err => {
                     if(err) throw err;
