@@ -1,7 +1,14 @@
+// Program: Create README.md file
+// Programmer: Robert Moel
+// Last Revised: February 27, 2020
+
+// Include required files for inquirer, file service, and axios
 const inq = require("inquirer");
 const fs = require("fs");
 const axios = require("axios");
 
+// Set up prompts to collect information
+// for the README.md file
 inq
     .prompt([
         {
@@ -53,16 +60,20 @@ inq
             name : 'repoContr'
         }
     ]).then(function(resp1){
-
+// Create JSON file of prompts
         outFile = JSON.stringify(resp1, null, 2);
         fs.writeFile('outFile.json', outFile, 'utf8', err =>{if(err) console.log(err)});
         axiosURL = `https://api.github.com/users/${resp1.gitUserName}`;
 
+// Use axios to get git info about git user
         axios
             .get(axiosURL)
             .then(resp2 => {
+// construction badge from license input
             const badgeURL =`https://img.shields.io/badge/license-${resp1.licType}-green.svg`
-                const markup = `
+// use string template to build mark up for readme
+// including table of contents ``` were escaped to be added to template
+            const markup = `
 ## ${resp1.projName}
 
 <img src = "${badgeURL}" alt ="badge" width ="60"/>        
@@ -107,14 +118,12 @@ ${resp1.tests}
 
 If you have an questions about the repo, open an issue or contact [${resp1.gitUserName}](${axiosURL})
 at my email: ${resp2.data.email}`;
-
+// write the markup file to README.md, throw error if it occured
                 fs.writeFile("README.md", markup, err => {
                     if(err) throw err;
                     console.log("README.md Saved!")
                 })
             })
+            // Catch any error and output
             .catch(err => console.log(err));
     });
-
-
-
