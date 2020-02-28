@@ -1,0 +1,10 @@
+{
+  "gitUserName": "randrmoel",
+  "projName": "README.md file creator",
+  "desc": "This program creates an automated README.md file",
+  "licType": "GPL 3.0",
+  "depend": "npm i axios, npm i inquirer",
+  "tests": "Tester",
+  "repoInfo": "Nothing particularly",
+  "repoContr": "All help welcome"
+}
