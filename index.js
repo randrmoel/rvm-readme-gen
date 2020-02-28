@@ -37,7 +37,7 @@ inq
         {
             type : 'input',
             message : 'Which command should be run to execute tests?',
-            default : 'Tester',
+            default : 'npm test',
             name : 'tests'
         },
         {
@@ -80,7 +80,11 @@ ${resp1.desc}
 
 ## Installation <a name="installation"></a>
 The following dependencies need to be installed
+
+\`\`\`
 ${resp1.depend}
+\`\`\`
+
 
 ## Usage <a name="usage"></a>
 ${resp1.repoInfo}
@@ -92,8 +96,12 @@ This project is licensed under the ${resp1.licType} license.
 ${resp1.repoContr}
         
 ## Tests <a name = "tests"></a>
+
+\`\`\`
 ${resp1.tests}
-        
+
+\`\`\`
+
 ## Questions <a name ="questions"></a>
 <img src="${resp2.data.avatar_url}" alt ="avatar" style = "border-radius: 16px" width ="30" /> 
 

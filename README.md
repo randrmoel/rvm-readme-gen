@@ -1,7 +1,7 @@
 
 ## README.md file creator
 
-<img src = "https://img.shields.io/badge/license-MIT-green.svg" alt ="badge" width ="60"/>        
+<img src = "https://img.shields.io/badge/license-GPL>3.0-green.svg" alt ="badge" width ="60"/>        
 
 ## Description
 This program creates an automated README.md file
@@ -16,20 +16,28 @@ This program creates an automated README.md file
 
 ## Installation <a name="installation"></a>
 The following dependencies need to be installed
+
+```
 npm i axios, npm i inquirer
+```
+
 
 ## Usage <a name="usage"></a>
 Nothing particularly
 
 ## License <a name="license"></a>
-This project is licensed under the MIT license.
+This project is licensed under the GPL>3.0 license.
 
 ## Contributing <a name="contributing"></a>
 All help welcome
         
 ## Tests <a name = "tests"></a>
-Tester
-        
+
+```
+npm test
+
+```
+
 ## Questions <a name ="questions"></a>
 <img src="https://avatars2.githubusercontent.com/u/58125997?v=4" alt ="avatar" style = "border-radius: 16px" width ="30" /> 
 
