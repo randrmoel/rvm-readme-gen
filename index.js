@@ -62,7 +62,7 @@ inq
             .get(axiosURL)
             .then(resp2 => {
                 const markup = `
-##${resp1.projName}
+## ${resp1.projName}
         
 ## Description
 ${resp1.desc}

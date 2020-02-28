@@ -1,5 +1,5 @@
 
-##README.md file creator
+## README.md file creator
         
 ## Description
 This program creates an automated README.md file
@@ -14,19 +14,19 @@ This program creates an automated README.md file
 
 ## Installation <a name="installation"></a>
 The following dependencies need to be installed
-npm i axios, npm i inquirer
+npm i axios, npm i inquirer, require fs
 
 ## Usage <a name="usage"></a>
 Nothing particularly
 
 ## License <a name="license"></a>
-This project is licensed under the None license.
+This project is licensed under the MIT license.
 
 ## Contributing <a name="contributing"></a>
 All help welcome
         
 ## Tests <a name = "tests"></a>
-Tester
+Test Program
         
 ## Questions <a name ="questions"></a>
 <img src="https://avatars2.githubusercontent.com/u/58125997?v=4" alt ="avatar" style = "border-radius: 16px" width ="30" /> 

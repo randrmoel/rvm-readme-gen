@@ -2,9 +2,9 @@
   "gitUserName": "randrmoel",
   "projName": "README.md file creator",
   "desc": "This program creates an automated README.md file",
-  "licType": "None",
-  "depend": "npm i axios, npm i inquirer",
-  "tests": "Tester",
+  "licType": "MIT",
+  "depend": "npm i axios, npm i inquirer, require fs",
+  "tests": "Test Program",
   "repoInfo": "Nothing particularly",
   "repoContr": "All help welcome"
 }
