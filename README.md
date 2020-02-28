@@ -1,6 +1,6 @@
 
 ## README.md file creator
-[[!GitHub License](https://img.shields.io/badge/license-BSD 3-green.svg)]        
+[[!GitHub License](https://img.shields.io/badge/license-MIT-green.svg)]        
 ## Description
 This program creates an automated README.md file
         
@@ -20,7 +20,7 @@ npm i axios, npm i inquirer
 Nothing particularly
 
 ## License <a name="license"></a>
-This project is licensed under the BSD 3 license.
+This project is licensed under the MIT license.
 
 ## Contributing <a name="contributing"></a>
 All help welcome

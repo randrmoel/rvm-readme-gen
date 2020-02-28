@@ -27,7 +27,7 @@ inq
             message : 'Which license should your project have?',
             default : 'None',
             name: 'licType',
-            choices : ['MIT', 'Apache 2.0', 'GPL 3.0', 'BSD 3','GNU' ,'None']
+            choices : ['MIT', 'Apache>2.0', 'GPL>3.0', 'BSD>3','None']
         },
         {   type : 'input',
             message : 'Which command should be run to install dependencies?',
